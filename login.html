@@ -3,41 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login | Website</title>
 </head>
 <body>
-    
 
+  <header class="header">
+  <div id="menu-btn" class="far-fa-bars"></div>
+  <div>
+    <a href="index.html" class="logo"> <span class="span-header"> Marg ana <img src="https://www.creativefabrica.com/wp-content/uploads/2021/05/02/Luxury-Beauty-Logo-Graphics-11590642-1.jpg" alt="Marg ana" width="300" height="150"></span> </a> 
+  </div>
+  <br/>
 
+  <nav class="navbar">
+    <a href="index.html"> home </a> |
+    <a href="index2.html"> about us </a> |
+    <a href="produkte.html"> Produkte </a> |
+    <a href="#reviews"> Bewertungen </a> |
+    <a href="#contact"> Kontakt </a> |
+    <a href="login.html"> Login </a> 
+  </nav>
+  
 
-<!--login form-->
+    <!--login form-->
 
-<div class = "login-form-container" >
-    <span class = "fas fa-times" id = "close-login-form" ></span >
-    <form >
-    <h3> Benutzeranmeldung </h3>
-    <input type="email" placeholder="email" class="box" >
-    <input typ ="Passwort" Placeholder ="Passwort" class="box">
-    <p> Passwort vergessen <a href="#"> hier klicken </a></p>
-    <input type="submit" value="jetzt anmelden" class="btn" >
-    <p> oder melden Sie sich mit </p>
-    <div class="buttons">
-    <a href="#" class="btn"> google </a>
-    <a href="#" class ="btn"> facebookd </a>
-    </div>
-    <p> kein Konto haben <a href ="#"> erstellen Sie eines </a></p>
-    </Form>
-    
+    <div class = "login-form-container" >
+        <span class = "fas fa-times" id = "close-login-form" ></span >
+        <form >
+            <h3> Benutzeranmeldung </h3>
+            <input type="email" placeholder="email" class="box" >
+            <input typ ="Passwort" Placeholder ="Passwort" class="box">
+
+            <p> Passwort vergessen <a href="#passwort-vergessen" onclick="myFunction()"> hier klicken </a></p>
+
+            <input type="submit" value="jetzt anmelden" class="btn" onclick="signin()">
+
+            <p> oder melden Sie sich mit </p>
+
+            <div class="buttons">
+                <a href="#" class="btn"> google </a>
+                <a href="#" class ="btn"> facebook </a>
+            </div>
+
+            <p>Kein Konto?<a href ="#"> Erstellen Sie eines!</a></p>
+        </form>
     </div>
 
     <hr>
     <footer>
         <ul>
          <li>BodyShop - Adresse Straße PLZ</li>
+         <li>Copyright (c) by Lina & Günbay (R) - 2023 </li>
          <li>Telefon 0123456789</li>
+         <li>E-Mail: Mail@domainmail.de</li>
          <li>Impressum</li>
          <li>Datenschutzerklärung</li>
         </ul>
     </footer>
+
+    <script>
+        function myFunction() 
+        {
+          alert("Hello! Sie haben Ihr Passwort Vergessen!!");
+        }
+        function signin()
+        {
+            alert("Hello! Sie sind Angemeldet! :)")
+        }
+    </script>
+
 </body>
 </html>
