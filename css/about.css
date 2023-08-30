@@ -1,0 +1,302 @@
+/***HEADER*********/
+#logo{
+    width: 12rem;
+    background: #F3F6C6;
+    border-radius: 50%;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+header{
+    width: 100%;
+    height: 55px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1)
+    /*z-index: 1;*/
+}
+   
+#main-nav{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align:center;}
+    section {min-height: 100%;}
+    a{text-decoration: none;}
+    li{list-style-type: none;}
+    a{
+     font-family: "Roboto";
+     font-weight: 900;
+     color: #494949;
+     text-transform: uppercase; 
+     margin: 1 auto;
+     align-items: center;
+}
+#mercedeslogo {
+    width: 140px;
+    float: left; 
+    margin: 10px 0 0 50px;
+}
+
+#mercedeslogo:hover {
+    opacity: 0.5; 
+}
+
+header nav {
+    float: right;
+    margin: 10 px 50 px 0 0;
+}
+
+header nav ul li{
+    float: left;
+    margin-right: 25px;
+}
+
+header nav ul li a {
+    font-size: 16px;  
+}
+
+header nav ul li:hover {
+    padding-top: 5px;
+}
+
+button, .info, li{transition: all 300ms;}
+
+    .service {
+        width: 100%;
+        margin: 20rem 0 0 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .top {
+        font-weight: 700;
+        font-size: 40px;
+        color: white;
+        margin: 0 10rem 0 0;
+    }
+    .bot {
+        font-weight: 700;
+        font-size: 40px;
+        margin: 1rem 0 0 10rem;
+    }
+    .circleu {
+        height: 170rem;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 -10rem 0;
+        background-image: url(https://svgshare.com/i/Vt2.svg);
+        background-repeat: no-repeat;
+        background-position: -90rem 0rem;
+        background-size: 230rem;
+    }
+
+    .infobox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .box1 {
+        background-color: white;
+        height: 25rem;
+        width: 20rem;
+        border: solid 2px grey;
+        border-radius: 2rem;
+        margin: 5rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box1 img {
+        height: 8rem;
+        margin: -2rem 0 0 0;
+    }
+    .box1 h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .box1 p {
+        font-size: 15px;
+        font-weight: 500;
+        margin: 1rem 0 0 0;
+
+    }
+
+    .box2 {
+        background-color: white;
+        height: 25rem;
+        width: 20rem;
+        border: solid 2px grey;
+        border-radius: 2rem;
+        margin: 5rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box2 img {
+        height: 8rem;
+        margin: -2rem 0 0 0;
+    }
+    .box2 h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .box2 p {
+        font-size: 15px;
+        font-weight: 500;
+        margin: 1rem 0 0 0;
+
+    }
+
+    .box3 {
+        background-color: white;
+        height: 25rem;
+        width: 20rem;
+        border: solid 2px grey;
+        border-radius: 2rem;
+        margin: 5rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box3 img {
+        height: 8rem;
+        margin: -2rem 0 0 0;
+    }
+    .box3 h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .box3 p {
+        font-size: 15px;
+        font-weight: 500;
+        margin: 1rem 0 0 0;
+
+    }
+
+    .box4 {
+        background-color: white;
+        height: 25rem;
+        width: 20rem;
+        border: solid 2px grey;
+        border-radius: 2rem;
+        margin: 5rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box4 img {
+        height: 8rem;
+        margin: -2rem 0 0 0;
+    }
+    .box4 h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .box4 p {
+        font-size: 15px;
+        font-weight: 500;
+        margin: 1rem 0 0 0;
+
+    }
+    .info {
+        display: block;
+        width: 200px;
+        margin: 2rem 0 0 0;
+        color: white;
+        background-color: #00B4FF;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .aboutus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+    .about h2 {
+        font-size: 40px;
+    }
+    .about p {
+        font-size: 18px;
+        line-height: 2.5rem;
+    }
+
+    .mini {
+        width: 60rem;
+        height: 30rem;
+        margin: 15rem -5rem 0 0;
+        background-image: url(https://svgshare.com/i/VrW.svg);
+        background-repeat: no-repeat;
+        background-position: 13rem 0rem;
+    }
+
+
+    .kontakt {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 8rem 0 0 0;
+    }
+    .title {
+        font-size: 50px;
+        font-weight: 700;
+        margin: 0 0 20px 0;
+    }
+      ::-webkit-input-placeholder {
+      font-size: 20px;
+      font-weight: 500;
+      color: #8D8D8D;
+      padding: 10px;
+    }
+    .form {
+        margin: 0 150px 0 0;
+    }
+    .name {
+      background-color: #DEDEDE;
+      width: 440px;
+      height: 53px;
+    }
+    .email {
+      background-color: #DEDEDE;
+      width: 440px;
+      height: 53px;
+    }
+    .message {
+      background-color: #DEDEDE;
+      width: 440px;
+      height: 249px;
+    }
+    .input {
+      display: block;
+      margin: 5px;
+      border: 1px solid #707070;
+    }
+
+    .absenden {
+      display: block;
+      margin: 25px 0 0 0;
+      width: 200px;
+      color: white;
+      background-color: black;
+      font-size: 25px;
+      font-weight: 700;
+      padding: 10px;
+      border-radius: 15px;
+      border: none;
+      cursor: pointer;
+    }

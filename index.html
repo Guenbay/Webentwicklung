@@ -1,55 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beauty | Homepage</title>
-</head>
-<body>
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
 
-  <header class="header">
-  <div id="menu-btn" class="far-fa-bars"></div>
-  <div>
-    <a href="index.html" class="logo"> <span class="span-header"> Marg ana <img src="https://www.creativefabrica.com/wp-content/uploads/2021/05/02/Luxury-Beauty-Logo-Graphics-11590642-1.jpg" alt="Marg ana" width="300" height="150"></span> </a> 
-  </div>
-  <br/>
+    <section class="section-landing">
+      <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+          <div class="logo">
+            <a href="index.html"><img id="logo" src="img/beauty-logo1.png" class="d-inline-flex link-body-emphasis" alt="logo" width="200"></a>
+          </div>
+                
+          <nav class="navbar-nav" id="nav-link">
+              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="produkte.html" class="nav-link">Produkte</a></li>
+                <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+              </ul>
+          </nav>
 
-  <nav class="navbar">
-    <a href="index.html"> home </a> |
-    <a href="index2.html"> about us </a> |
-    <a href="produkte.html"> Produkte </a> |
-    <a href="#reviews"> Bewertungen </a> |
-    <a href="#contact"> Kontakt </a> |
-    <a href="login.html"> Login </a> 
-  </nav>
-  
-  <div id="login-btn">
-    <button> <a href="login.html">anmelden </a> </button>
-    <i class="far-fa-user"></i>
-  </div >
-</header> 
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-warning me-2">Login</button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+        </header>
+      </div>
 
-<h1><u>Beauty</u></h1>
+      <!--Info Card-->
+      <br>
+      <br>
+      <div class="row">
+        
+        <div class="col-sm-3 mb-3 mb-sm-0 card-transparent">
+          <div class="card" style="width: 18rem;">
+            <img src="img/beauty-logo.jpg" class="card-img-top " alt="...">
+            <div class="card-body  card-bgr">
+              <h5 class="card-title">First One</h5>
+              <p class="card-text">Learn something about us and who we are.</p>
+              <a href="about.html" class="btn btn-warning">Go to About Us</a>
+            </div>
+          </div>
+        </div>
 
-<section>
-  <article>
-    <p>Sehen Sie selbst, was die Hautpflege mit sich bringt, anhand dem folgenden Schaubild:</p>
-    <img src="https://static.instyle.de/405x579/focal_286x289:287x290/images/2021-03/hum-nutritiondaily-cleansevorhernachher.png" width="150" height="250" alt="Hautpflege" />
-  </article>
-</section>
+        <div class="col-sm-3 card-transparent">
+          <div class="card" style="width: 18rem;">
+            <img src="img/landing-page.jpg" class="card-img-top" alt="...">
+            <div class="card-body card-bgr">
+              <h5 class="card-title">Another One</h5>
+              <p class="card-text">See our products we provide. We give you a free advice if you get in contact or in touch.</p>
+              <a href="produkte.html" class="btn btn-warning">Go to Products</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-3 mb-3 mb-sm-0 card-transparent">
+          <div class="card" style="width: 18rem;">
+            <img src="img/beauty-logo.jpg" class="card-img-top " alt="...">
+            <div class="card-body  card-bgr">
+              <h5 class="card-title">Another One ...</h5>
+              <p class="card-text">Contact Us!</p>
+              <a href="kontakt.html" class="btn btn-warning">Go to Contact</a>
+            </div>
+          </div>
+        </div>
 
-<hr>
-
-<footer>
-    <ul>
-     <li>BodyShop - Adresse Straße PLZ</li>
-     <li>Copyright (c) by Lina & Günbay (R) - 2023 </li>
-     <li>Telefon 0123456789</li>
-     <li>E-Mail: Mail@domainmail.de</li>
-     <li>Impressum</li>
-     <li>Datenschutzerklärung</li>
-    </ul>
-</footer>
+      </div>
     
+    </section>
+    
+   
 </body>
 </html>
